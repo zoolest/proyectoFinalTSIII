@@ -12,5 +12,4 @@ android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch
 		Assembly-CSharp-FeaturesChecked.txt
 		UnityEngine.UI-FeaturesChecked.txt
 	UnityEngine.Input::get_touchCount was present in:
-		Assembly-CSharp-FeaturesChecked.txt
 		UnityEngine.UI-FeaturesChecked.txt
