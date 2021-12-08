@@ -36,10 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ARTapToPlaceObject.cs" />
      <Compile Include="Assets\Scripts\BotonSalir.cs" />
      <Compile Include="Assets\Scripts\SpawnObject.cs" />
-     <Compile Include="Assets\Scripts\PlacementRotation.cs" />
      <Compile Include="Assets\Scripts\CambiarEscenaConBoton.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

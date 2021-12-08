@@ -359,10 +359,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Scripts/ARTapToPlaceObject.cs"
 "Assets/Scripts/BotonSalir.cs"
 "Assets/Scripts/CambiarEscenaConBoton.cs"
-"Assets/Scripts/PlacementRotation.cs"
 "Assets/Scripts/SpawnObject.cs"
 -langversion:9.0
 
