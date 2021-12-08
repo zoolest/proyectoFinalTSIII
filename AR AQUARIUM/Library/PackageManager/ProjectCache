@@ -74,8 +74,10 @@ m_ResolvedPackages:
     - 1.13.5
     - 1.14.1
     - 1.14.4
+    - 1.14.7
     - 1.15.1
     - 1.15.4
+    - 1.15.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -88,6 +90,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     compatible:
     - 1.15.4
+    - 1.15.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -98,7 +101,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.4
+    verified: 1.15.7
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 2.0.0
@@ -3908,9 +3911,11 @@ m_ResolvedPackages:
     - 1.0.2
     - 1.0.3
     - 2.0.0
+    - 2.0.1
     compatible:
     - 1.0.3
     - 2.0.0
+    - 2.0.1
     verified: 1.0.3
   dependencies: []
   resolvedDependencies: []

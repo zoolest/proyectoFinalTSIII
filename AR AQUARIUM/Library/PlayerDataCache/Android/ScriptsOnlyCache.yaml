@@ -1,11 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BotonSalir
+    - CambiarEscenaConBoton
     - SpawnObject
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
@@ -68,43 +74,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1666}
+      Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 2386}
     - Class: 114
-      Script: {instanceID: 2714}
+      Script: {instanceID: 2716}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2962}
     - Class: 114
-      Script: {instanceID: 3264}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 3456}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 3892}
+      Script: {instanceID: 3894}
     - Class: 114
-      Script: {instanceID: 3958}
+      Script: {instanceID: 3960}
     - Class: 114
-      Script: {instanceID: 5806}
+      Script: {instanceID: 4366}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 6160}
+      Script: {instanceID: 5810}
     - Class: 114
-      Script: {instanceID: 6654}
+      Script: {instanceID: 6136}
     - Class: 114
-      Script: {instanceID: 6968}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 7804}
+      Script: {instanceID: 6658}
     - Class: 114
-      Script: {instanceID: 8260}
+      Script: {instanceID: 6972}
     - Class: 114
-      Script: {instanceID: 8410}
+      Script: {instanceID: 7810}
     - Class: 114
-      Script: {instanceID: 23522}
+      Script: {instanceID: 8266}
+    - Class: 114
+      Script: {instanceID: 8416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -118,6 +126,71 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Inicio.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 2232}
+    - Class: 114
+      Script: {instanceID: 2716}
+    - Class: 114
+      Script: {instanceID: 2962}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 4416}
+    - Class: 114
+      Script: {instanceID: 4714}
+    - Class: 114
+      Script: {instanceID: 5512}
+    - Class: 114
+      Script: {instanceID: 5810}
+    - Class: 114
+      Script: {instanceID: 6136}
+    - Class: 114
+      Script: {instanceID: 6300}
+    - Class: 114
+      Script: {instanceID: 6658}
+    - Class: 114
+      Script: {instanceID: 7690}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -592,6 +665,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BotonSalir
+  - hash:
+      serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -806,6 +885,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b0b494225c771752b41b6aa55a47175e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnObject
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1055,6 +1140,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CambiarEscenaConBoton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
@@ -1178,14 +1269,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b0b494225c771752b41b6aa55a47175e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpawnObject
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Inicio.unity
   - Assets/Scenes/Aquarium.unity
   playerPath: C:/Users/inthe/Documents/GitHub/proyectoFinalTSIII/AR AQUARIUM/Builds/AR
     Aquarium.apk
